@@ -1,3 +1,7 @@
+#ini adalah program untuk memfaktorkan atau mencari nilai p dan q dari bilangan n pada RSA
+'''pastikan install library sympy dan pycryptodome terlebih dahulu
+pip install sympy pycryptodome
+'''
 from sympy import factorint
 from Crypto.Util.number import long_to_bytes
 
