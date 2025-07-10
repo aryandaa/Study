@@ -34,5 +34,5 @@ else :
 gjterima = gator - tax
 print("\n")
 print (f"karyawan dengan nama {namakry} dengan gaji pokok sejumlah {gapok:,} \n dan jam kerja {jmljamkj} \n")
-print (f"karyawan tersebut menerima gaji bersih {gjterima} yang di ambil dari gaji kotor {gator} dikurangi dengan pajak {tax}")
+print (f"karyawan tersebut menerima gaji bersih {gjterima:,} yang di ambil dari gaji kotor {gator:,} dikurangi dengan pajak {tax:,}")
 
