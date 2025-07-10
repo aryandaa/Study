@@ -18,7 +18,7 @@ def akar_primitif(n):
 import math
 
 # Contoh penggunaan:
-n = 11
+n = 11 # Masukan modulo yang ingin dicari akar primitifnya
 akar = akar_primitif(n)
 if akar != -1:
     print(f"Akar primitif modulo {n} adalah: {akar}")
