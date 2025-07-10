@@ -1,6 +1,8 @@
 <?php
-//kita bisa meletakan tag html di dalam tag php
-//dan sebaliknya, kita bisa meletakan tag php di dalam html
+/* di dalam bahasa php, kita bisa meletakan tag html di dalam tag php dan sebaliknya, 
+kita bisa meletakan tag php di dalam html
+
+*/
 
     echo "ini adalah sintak echo";
     echo "<h1> ini adalah head 1 </h1>";
