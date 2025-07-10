@@ -25,8 +25,8 @@ print(r"\n\t\b")
 
 #multiline string
 print(""""
-Nama: Aryanda
-Umur: !9
-Kelas: 2B
+Nama  : Aryanda
+Umur  : !9
+Kelas : 2B
 Kampus: Poliban
       """)

@@ -35,8 +35,8 @@ y = 5
 hasil = x is not y
 print (hasil) #hasilnya false karena sama
 
-#is dan is not cuman bisa work ke variable, tidak dengan str atau int seperti
+#is dan is not cuman bisa work untuk membandingkan 2 variable yang berbeda, 
+#tidak dengan str atau int seperti
 q = 15
-
 hasil = q is 15
 print (hasil) #hasilnya adalah "warning" karena tidak bisa

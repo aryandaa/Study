@@ -12,7 +12,7 @@ print(True and True) #hasilnya true
 print(True and False) #hasilnya false
 print(False and False) #hasilnya false
 
-#or jika salah satu nilai true maka hasilnya true, jika kedua nilai false maka hasilnya false
+#or jika salah satu ada nilai true maka hasilnya true, jika kedua nilai false maka hasilnya false
 print(True or True) #hasilnya true
 print(True or False) #hasilnya true
 print(False or False) #hasilnya false

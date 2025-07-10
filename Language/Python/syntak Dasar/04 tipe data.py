@@ -9,8 +9,8 @@ float = 1.5
 str = "Hello, World!"
 
 #4. Boolean (benar/salah)
-bool = True
-bool = False
+boolT = True
+boolF = False
 
 #5. List (kumpulan data yang dapat berubah-ubah)
 list = [1, 2, 3, 4, "yanda"]
