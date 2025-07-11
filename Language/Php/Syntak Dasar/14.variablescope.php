@@ -9,7 +9,7 @@ function functa(){
     echo $a;
 }
 functa(); 
-//fUnCtionnya akan error dan tidak akan menampilkan !0
+//fUnCtionnya akan error dan tidak akan menampilkan 10
 //karna variable a memiliki ruang yang berbeda dengan function
 
 //agar functionnya tampil, variable harus di letakan di dalam function
@@ -17,7 +17,7 @@ functa();
 
 function varb(){
     $a = 10;
-    echo $b;
+    echo $a;
 };
 varb(); //hasilnya akan tampil, karna variable sudah di ruang yang sama dengan function
 

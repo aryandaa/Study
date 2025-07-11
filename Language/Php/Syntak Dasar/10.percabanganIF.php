@@ -4,8 +4,6 @@
 //if else if else
 //ternary
 //switch
-////////////////////////////////////////////
-//me=if else
 $x = 10;
 if( $x < 20 ) {
     echo "benar"; //jika hasilnya true, letakan di dalam kurung
