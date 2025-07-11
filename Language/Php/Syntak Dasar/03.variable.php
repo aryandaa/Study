@@ -4,6 +4,7 @@
     $nama = "muhammad aryanda sanggadiennata";
     $kelas = 11;
     $jurusan = "pengembangan perangkat lunak dan gim";
+    
 
     //memunculkan variable
     echo $nama;
