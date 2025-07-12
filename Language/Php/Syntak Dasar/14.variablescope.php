@@ -44,4 +44,30 @@ function myTest() {
 myTest();
 echo $y; // outputs 15
 
+//static variable
+/*
+variabel di dalam fungsi biasanya akan hilang setelah fungsi selesai dijalankan. 
+Tapi kalau pakai keyword static, variabel itu tidak dihapus dan bisa menyimpan nilainya untuk pemanggilan berikutnya. 
+Jadi, kalau fungsi dipanggil berkali-kali, nilai variabelnya akan terus bertambah atau berubah sesuai yang terakhir. 
+Ini berguna buat nyimpen data sementara tanpa harus pakai variabel global.
+*/
+
+function myTest2() {
+  static $x = 0;
+  echo $x;
+  $x++;
+}
+
+foreach (range(1, 5) as $i) {
+  myTest2();
+  echo "<br>";
+}
+//jadi setiap berubahan yang terjadi pada variabel $x akan tetap ada meskipun fungsi sudah selesai dijalankan.
+//tapi foreach diatas sama sepertinya dengan memanggil fungsi 5 kali,
+myTest();
+myTest();
+myTest();
+myTest();
+myTest();
+
 ?>

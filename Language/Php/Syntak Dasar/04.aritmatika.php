@@ -1,10 +1,13 @@
 <?php
-//+ untuk tambah
-//- untuk kurang
-//* untuk kali
-// / untuk bagi
-// % modulus atau sisa bagi
+/*
 
++ untuk tambah
+- untuk kurang
+* untuk kali
+/ untuk bagi
+% modulus atau sisa bagi
+
+*/
 
 //cara menampilkannya
 echo 10 + 10; // hasilnya adalah 20

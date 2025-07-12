@@ -1,9 +1,7 @@
 <?php
 /* di dalam bahasa php, kita bisa meletakan tag html di dalam tag php dan sebaliknya, 
 kita bisa meletakan tag php di dalam html
-
 */
-
     echo "ini adalah sintak echo";
     echo "<h1> ini adalah head 1 </h1>";
     echo "<h2> ini adalah head 2 </h2>";
@@ -38,4 +36,18 @@ kita bisa meletakan tag php di dalam html
     var_dump ("fungsi var dump adalah untuk menghitung jumlah string yan ada di dalam sintak var dum");
     echo "<hr>";
     var_dump (123); //untuk int
+
+/*
+Gunakan echo untuk teks biasa — paling umum dan ringan.
+
+Gunakan print_r() untuk lihat isi array/objek secara cepat.
+
+Gunakan var_dump() kalau butuh tahu struktur dan tipe datanya.
+
+Gunakan print kalau butuh hasilnya dipakai dalam ekspresi — tapi jarang dipakai.
+
+Kalau masih belajar, cukup fokus ke:
+echo buat tampilkan teks, dan var_dump() buat debug isi variabel.
+
+*/
 ?>
