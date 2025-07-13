@@ -3,6 +3,7 @@
 //for
 //while
 //do while
+//foreach
 
 //for
 for ( $i = 0; $i < 5; $i++ ) {
@@ -16,11 +17,7 @@ for ( $i = 0; $i < 5; $i++ ) {
 //biar ada spasi nya diantara perulangan, tambahkan spasi di ujung kalimat
 //biar kalimatnya gak nyambung dan turun kebawah, tambahkan <br> di dalam tanda kutip
 
-//
-//
 echo "<hr>";
-//
-//
 
 //while
 $i = 0;
@@ -34,11 +31,7 @@ $i++;
 //jumlah pengulangan diletakan di dalam kurung while
 //$i++ diletakan di bawah echo
 
-//
-//
 echo "<hr>";
-//
-//
 
 //do while
 $i = 0;
@@ -49,4 +42,11 @@ $i++;
 //yang membedakan while dan do while adalah,
 //while akan error jika $i bernilai false dari < 
 // dan do while akan tetap menjalankan walaupun $i bernilai false dari <
+
+//foreach
+//untuk melakukan perulangan pada array
+$colors = array("red", "green", "blue", "yellow");
+foreach ($colors as $x) {
+  echo "$x <br>";
+}
 ?>
