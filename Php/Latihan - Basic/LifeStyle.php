@@ -28,20 +28,39 @@ Materi yang dipakai:
 */
 
 $nama = readline("masukan nama kamu: ");
+$umur = readline("masukan umur kamu ya: ");
 $jamMainHp = readline("Masukan jam main hp kamu: ");
 $jamTidur = readline("Masukan Jam tidur kamu: ");
-$total = $jamMainHp + $jamTidur ;
+
+$kurangTidur = 0;
+if ($jamTidur < 7) {
+    $kurangTidur = 7 - $jamTidur;
+}
+$total = $jamMainHp + $kurangTidur;
+
+$totalumur = $umur * 365;
+$makanSehat = false;
 
 function hitung(){
     global $total,$nama;
-    if ($total > 10){
+    if ($total > 10) {
     echo "Waduh, gaya hidupmu bahaya banget, Kak $nama 😭";
-} elseif ($total < 6 AND $total > 10){
+} elseif ($total >= 6 && $total <= 10) {
     echo "Kamu masih bisa membaik, semangat Kak $nama!";
-} elseif ($total < 6) {
+} else {
     echo "Gaya hidup kamu sehat, good job Kak $nama 🥰";
 }
 }
 
+function makansehat(){
+    global $makanSehat;
+    if ($makanSehat == false) {
+    echo "jangan lupa mulai makan sayur ya 😠";
+}
+}
+
 echo "Nama : $nama \nTotal waktu tidak sehat: $total\n";
+hitung();
+makansehat();
+echo "Kamu udah hidup selama $totalumur hari di dunia ini.";
 ?>
