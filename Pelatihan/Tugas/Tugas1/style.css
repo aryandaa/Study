@@ -1,0 +1,41 @@
+.view-button{
+    background-color: #4CAF50; /* Green */
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.h2-create{
+    text-align: center;
+    color: #4CAF50;
+}
+
+.inventory-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  width: 150px; /* lebar kolom label */
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group .radio-group {
+  flex: 1; /* input akan melebar memenuhi ruang */
+}
+
+.radio-group {
+  display: flex;
+  gap: 20px;
+}
