@@ -1,0 +1,55 @@
+/* Format css 
+Semua dokumen CSS harus menggunakan dua spasi untuk indentasi dan file tidak boleh memiliki dua spasi tambahan (whitespace).
+
+Gunakan tanda kutip ganda.
+
+Gunakan notasi steno hanya jika diperlukan.
+
+Beri spasi setelah: dalam deklarasi properti.
+
+Letakkan spasi sebelum {dalam deklarasi aturan.
+
+Gunakan kode warna hex # 000 kecuali menggunakan rgba ().
+
+Selalu berikan properti fallback untuk browser lama.
+
+Gunakan satu baris per deklarasi properti.
+
+Selalu ikuti aturan dengan satu baris spasi.
+
+Selalu mengutip konten url () dan @import ().
+
+Jangan membuat indentasi blok.*/
+
+/* contoh css */
+body {
+  background-color: #f0f0f0;
+  font-family: "Arial", sans-serif;
+}
+
+h1 {
+  color: #333;
+  font-size: 24px;
+}
+
+p {
+  color: #666;
+  line-height: 1.5;
+}
+
+/* pemberian nama:
+    Semua nama yang digunakan untuk id, kelas dan atribut harus menggunakan huruf kecil, 
+    dan menggunakan tanda hubung apa bila diperlukan pemisahan.
+*/
+/* bagus */
+    #main-header {
+
+    }
+
+/* buruk */
+    #MainHeader {
+    }
+    #Mainheader {
+    }
+    #Main_Header {
+    }
